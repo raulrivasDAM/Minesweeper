@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/instrucciones"
+        android:title="Instrucciones" />
+
+    <item
+        android:id="@+id/reiniciar"
+        android:title="Reiniciar" />
+
+    <item
+        android:id="@+id/tipoBomba"
+        android:icon="@drawable/bomba"
+        android:title="Seleccionar Bomba"
+        app:showAsAction="always">
+
+        <menu/>
+    </item>
+
+    <item
+        android:id="@+id/dificultad"
+        android:title="Dificultad" />
+</menu>
